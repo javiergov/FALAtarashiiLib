@@ -1,0 +1,22 @@
+{
+  "name": "FALAtarashiiLib",
+  "version": "0.1.0",
+  "summary": "A short description of FALAtarashiiLib.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Javier González O./FALAtarashiiLib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Javier González O.": "javiergov+dev@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Javier González O./FALAtarashiiLib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "FALAtarashiiLib/Classes/**/*"
+}
