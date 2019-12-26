@@ -16,8 +16,8 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         let array = [1,2,3,5,6,7,8,8,9]
         print(" amount of items in the array \(array.count)")
-        print(" first is: \(array[safe: 0] ?? 100 )")
-        print(" ninety nine is: \(array[safe: 98] ?? 998)")
+        print(" first is: \(String(describing: array[safe: 0]))")
+        print(" ninety nine is: \(String(describing: array[safe: 98]))")
     }
 
     override func didReceiveMemoryWarning() {

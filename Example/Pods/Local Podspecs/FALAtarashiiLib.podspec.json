@@ -1,9 +1,9 @@
 {
   "name": "FALAtarashiiLib",
-  "version": "0.1.0",
-  "summary": "A short description of FALAtarashiiLib.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Javier González O./FALAtarashiiLib",
+  "version": "0.1.1",
+  "summary": "Another library for the Spec.",
+  "description": "This is a new library for testing purposes.",
+  "homepage": "https://github.com/javiergov/FALAtarashiiLib",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,13 @@
     "Javier González O.": "javiergov+dev@gmail.com"
   },
   "source": {
-    "git": "https://github.com/Javier González O./FALAtarashiiLib.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/javiergov/FALAtarashiiLib.git",
+    "tag": "0.1.1"
   },
+  "swift_versions": "5.0",
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.3"
   },
-  "source_files": "FALAtarashiiLib/Classes/**/*"
+  "source_files": "FALAtarashiiLib/Classes/**/*",
+  "swift_version": "5.0"
 }

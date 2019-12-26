@@ -1,5 +1,5 @@
 PODS:
-  - FALAtarashiiLib (0.1.0)
+  - FALAtarashiiLib (0.1.1)
   - Nimble (7.3.4)
   - Quick (1.2.0)
 
@@ -18,10 +18,10 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FALAtarashiiLib: 097d0613c2faaa13d1d7d8ffde44d05e8b8e6fec
+  FALAtarashiiLib: c2e22e60ec376d8d2e26012a587c514ea8a29848
   Nimble: 051e3d8912d40138fa5591c78594f95fb172af37
   Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
 
-PODFILE CHECKSUM: 1e251922f8aa14f00c73ed5e9d97df8fa4a86b75
+PODFILE CHECKSUM: e333aa3b66a9ebc2de6ed5c167b3f6ebe3459f5c
 
 COCOAPODS: 1.8.4

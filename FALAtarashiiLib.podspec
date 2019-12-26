@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FALAtarashiiLib'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Another library for the Spec.'
 
 # This description is used to generate tags and improve search results.
@@ -26,10 +26,10 @@ This is a new library for testing purposes.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Javier González O.' => 'javiergov+dev@gmail.com' }
   s.source           = { :git => 'https://github.com/javiergov/FALAtarashiiLib.git', :tag => s.version.to_s }
-  s.social_media_url = 'https://twitter.com/javiergov'
+  #s.social_media_url = 'https://twitter.com/javiergov'
 
-  s.swift_versions = ['4.2', '5.0']
-  s.ios.deployment_target = '10.0'
+  s.swift_version    = '5.0'
+  s.ios.deployment_target = '9.3'
 
   s.source_files = 'FALAtarashiiLib/Classes/**/*'
   
@@ -37,7 +37,7 @@ This is a new library for testing purposes.
   #   'FALAtarashiiLib' => ['FALAtarashiiLib/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  # s.public_header_files = 'FALAtarashiiLib/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
