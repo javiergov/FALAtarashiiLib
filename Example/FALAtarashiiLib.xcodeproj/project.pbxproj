@@ -29,8 +29,8 @@
 
 /* Begin PBXFileReference section */
 		0A4003E335401E8424A22104 /* Pods_FALAtarashiiLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FALAtarashiiLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0B3E640E6DC5526E06B52438 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		219B8516B669B4F1328625D3 /* FALAtarashiiLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FALAtarashiiLib.podspec; path = ../FALAtarashiiLib.podspec; sourceTree = "<group>"; };
+		0B3E640E6DC5526E06B52438 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		219B8516B669B4F1328625D3 /* FALAtarashiiLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FALAtarashiiLib.podspec; path = ../FALAtarashiiLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		24A15871D909F3746AF257DF /* Pods_FALAtarashiiLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FALAtarashiiLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* FALAtarashiiLib_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FALAtarashiiLib_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,7 +45,7 @@
 		AA45A14D271C4C3066019041 /* Pods-FALAtarashiiLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FALAtarashiiLib_Example.release.xcconfig"; path = "Target Support Files/Pods-FALAtarashiiLib_Example/Pods-FALAtarashiiLib_Example.release.xcconfig"; sourceTree = "<group>"; };
 		AD6A17E82BFB1800FB0C973C /* Pods-FALAtarashiiLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FALAtarashiiLib_Tests.debug.xcconfig"; path = "Target Support Files/Pods-FALAtarashiiLib_Tests/Pods-FALAtarashiiLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D2B115E9EBEAEAC96374974C /* Pods-FALAtarashiiLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FALAtarashiiLib_Tests.release.xcconfig"; path = "Target Support Files/Pods-FALAtarashiiLib_Tests/Pods-FALAtarashiiLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D64AE4FE7C6ED3EBA8E9877C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D64AE4FE7C6ED3EBA8E9877C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E8DC77451F8C6856112BC394 /* Pods-FALAtarashiiLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FALAtarashiiLib_Example.debug.xcconfig"; path = "Target Support Files/Pods-FALAtarashiiLib_Example/Pods-FALAtarashiiLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -156,7 +156,6 @@
 				AD6A17E82BFB1800FB0C973C /* Pods-FALAtarashiiLib_Tests.debug.xcconfig */,
 				D2B115E9EBEAEAC96374974C /* Pods-FALAtarashiiLib_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -228,6 +227,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
